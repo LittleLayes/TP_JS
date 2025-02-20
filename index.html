@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Chiffre Caché</title>
+</head>
+<body>
+    <p>Choisissez le niveau de difficulté désiré pour le jeu:</p>
+
+<form>
+  <input type="radio" id="facile" name="niveau_desire" value="facile">
+  <label for="facile">facile (chiffre inférieur à 10, 5 tentatives)</label><br>
+  <input type="radio" id="intermédiaire" name="niveau_desire" value="intermédiaire">
+  <label for="intermédiaire">intermédiaire (chiffre inférieur à 10, 3 tentatives)</label><br>
+  <input type="radio" id="difficile" name="niveau_desire" value="difficile">
+  <label for="difficile">difficile (chiffre inférieur à 10, 1 tentative)</label>
+</form>
+<button>Jouer!</button>
+    <script src="chiffre_caché.js"></script>
+</body>
+</html>
